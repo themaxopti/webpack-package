@@ -1,0 +1,18 @@
+/*!***************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss ***!
+  \***************************************************************************************************************************************************/
+@charset "UTF-8";
+@font-face {
+  font-family: "Conv_leto";
+  src: url(fonts/.eot);
+  src: local("☺"), url(fonts/.woff) format("woff"), url(fonts/.ttf) format("truetype"), url(static/c95d8079a4233b0b5e90.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.some {
+  color: brown;
+  font-family: "Conv_leto";
+  font-style: normal;
+}
+
+/*# sourceMappingURL=main.8ad73caf25980bf216c1.css.map*/

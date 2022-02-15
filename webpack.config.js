@@ -54,11 +54,14 @@ module.exports = {
             },
             {
                 test: /\.(png|jpe?g|gif|svg|webp|ico)$/i,
-                // type: 'asset/resource',
-                loader: 'file-loader',
-                options: {
-                    name: 'assets/[name].[ext]'
+                type: 'asset/resource',
+                generator: {
+                    filename: 'static/[hash][ext][query]'
                 }
+                // loader: 'file-loader',
+                // options: {
+                //     name: 'assets/[name].[ext]'
+                // }
             },
             {
                 test: /\.(woff2?|eot|ttf|otf)$/i,
